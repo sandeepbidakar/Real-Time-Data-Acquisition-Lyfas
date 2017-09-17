@@ -38,7 +38,7 @@ def print_msg(client,userdata,message):
         print("Abnormal Pulse Rate")
     else:
         print("Pulse Rate is Normal")
-    
+    print(hi)
     plt.ion()
     plt.plot(non_zeros)
     plt.pause(.05)
